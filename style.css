@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Georgia', serif;
+    background-color:white;
+    color: #000;
+    line-height: 1.6;
+    text-align: center;
+}
+.hero {
+    text-align: center;
+    padding: 6rem 2rem 3rem;
+    background-color:white;
+} 
+.hero h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+} 
+.hero p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: dimgray;
+}
+
+.showcase{
+    padding: 4rem 2rem;
+    text-align: center;
+} 
+.showcase h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+} 
+.tagline{
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 3rem;
+} 
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.product{
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}  
+.product:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+}  
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.product h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+} 
+.product p {
+    font-size: 0.95rem;
+    color: darkgray;
+    margin-bottom: 1rem;
+} 
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: darkgray;
+}
+.contact{
+    background-color: white;
+    padding: 3rem 2rem;
+} 
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.contact-details p{
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+} 
+.contact-details a {
+    color: black;
+    text-decoration: none;
+} 
+.contact-details a:hover {
+    text-decoration: underline;
+}
+.footer{
+    text-align: center;
+    padding: 2rem;
+    background-color:white;
+    color: #555;
+    font-size: 0.9rem;
+}
+  
